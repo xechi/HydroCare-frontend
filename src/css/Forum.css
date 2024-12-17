@@ -1,0 +1,47 @@
+.hero-section5 {
+  position: relative;
+  background-image: url("src/assets/img/bgedu2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.overlay {
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+/* Headline */
+.headline5 {
+  color: #e5d9d2;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 150.112%;
+  text-align: center;
+  margin-top: 48px;
+}
+
+.text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-box textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 130px;
+}
+
+.btn {
+  background: #1f3528;
+  color: white;
+}

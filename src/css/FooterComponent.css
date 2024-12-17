@@ -1,0 +1,99 @@
+.footer {
+  background-color: #183e31;
+  color: #ffffff;
+  padding: 20px 40px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Logo Section */
+.footer-logo {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo-img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.footer-logo-text {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Navigation Links */
+.footer-links {
+  display: flex;
+  gap: 150px;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-link {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+/* Social Media Links */
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  gap: 15px;
+  padding-bottom: 10px;
+}
+
+.social-icon img {
+  width: 24px; /* Sesuaikan ukuran ikon */
+  height: 24px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.social-icon img:hover {
+  transform: scale(1.1); /* Efek zoom saat hover */
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #ffffff;
+  padding-top: 10px;
+}
+
+.footer-copyright {
+  font-size: 14px;
+}
+
+.footer-privacy {
+  display: flex;
+  gap: 15px;
+}
+
+.footer-privacy a {
+  font-size: 14px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-privacy a:hover {
+  text-decoration: underline;
+}

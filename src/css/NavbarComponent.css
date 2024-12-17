@@ -1,0 +1,75 @@
+/* Styling navbar */
+.navbar {
+  background-color: rgba(17, 45, 34, 0.9); /* Warna dengan transparansi */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 20px;
+  position: fixed; /* Tetap di bagian atas layar */
+  top: 20px; /* Jarak dari atas layar */
+  left: 50%; /* Posisikan di tengah secara horizontal */
+  transform: translateX(-50%); /* Pastikan benar-benar di tengah horizontal */
+  width: 90%; /* Lebar navbar */
+  max-width: 1000px; /* Batas maksimal lebar */
+  z-index: 1000; /* Tetap di atas elemen lain */
+  backdrop-filter: blur(10px); /* Efek blur pada latar belakang */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan */
+  border-radius: 50px; /* Tambahkan lengkungan di sudut */
+  transition: all 0.3s ease; /* Animasi untuk transisi halus */
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.logo img {
+  width: 55px;
+  height: 100%;
+  margin-right: 10px;
+  margin-left: 15px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 30px; /* Tambahkan jarak horizontal antar elemen */
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 5px 10px; /* Tambahkan sedikit ruang internal pada setiap link */
+}
+
+.nav-links li a:hover {
+  color: #78c2a3;
+  transition: color 0.3s ease;
+}
+
+
+.login-button button {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 8px 16px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.login-button button:hover {
+  background-color: #56a37f;
+  transition: background-color 0.3s ease;
+}

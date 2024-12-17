@@ -1,0 +1,150 @@
+/* Hero Section */
+.hero-section4 {
+  position: relative;
+  background-image: url("src/assets/img/bgedu2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.overlay {
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+/* Headline */
+.headline {
+  color: #e5d9d2;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 150.112%;
+  margin-bottom: 80px;
+  padding-left: 180px;
+  padding-right: 180px;
+  text-align: center;
+}
+
+/* Search Container */
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(195, 193, 193, 0.7);
+  border-radius: 50px;
+}
+
+.search-input {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 30px;
+  width: 700px;
+  font-size: 30px;
+  color: black;
+  background-color: rgba(0, 0, 0, 0);
+}
+.icon-search {
+  padding-left: 20px;
+}
+.search-button {
+  border-radius: 50px;
+  background: #1f3528;
+  color: #e5d9d2;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 162px;
+  height: 52px;
+  border: none;
+  margin: 10px;
+  cursor: pointer;
+}
+.search-button:hover {
+  background: #32453a;
+  transition: color 0.3s ease;
+}
+
+.search-button i {
+  font-size: 18px;
+}
+
+.search-input-container:focus-within .search-input {
+  outline: none;
+}
+
+/* Content Section */
+.content-section-art {
+  display: flex;
+  flex-direction: column; /* Vertikal: gambar di atas, teks di bawah */
+  align-items: flex-start; /* Elemen diratakan ke kiri */
+  padding: 20px 50px;
+  background-color: #f9f9f9;
+  border-radius: 20px;
+  margin: 50px auto; /* Tengah horizontal hanya kontainer */
+  max-width: 900px; /* Batasi lebar kontainer */
+}
+
+/* Gambar */
+.image-container-art {
+  width: 100%; /* Gambar menyesuaikan lebar kontainer */
+}
+
+.content-image-art {
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px; /* Jarak antara gambar dan teks */
+}
+
+/* Teks */
+.text-container-artikel {
+  width: 100%; /* Teks menyesuaikan kontainer */
+  color: #333;
+}
+
+.content-title-art {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #1f3528;
+}
+
+.section-title-art {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #32453a;
+}
+
+.content-list-art {
+  list-style-type: none;
+  padding: 0;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.content-list-art li {
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.content-list-art li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #1f3528;
+  font-size: 20px;
+}

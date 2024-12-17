@@ -1,0 +1,99 @@
+/* Hero Section */
+.hero-section3 {
+  position: relative;
+  background-image: url("src/assets/img/bgedu0.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.overlay-edu {
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+/* Main Content */
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 1200px;
+  gap: 20px;
+}
+
+/* Articles Section */
+.articles-section {
+  flex: 3;
+}
+
+.articles-section h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.article-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.article-card h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.article-card p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.article-footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #888;
+}
+
+/* Sidebar */
+.sidebar {
+  flex: 1;
+  background-color: #004d40;
+  color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  top: 20px; /* Jarak dari atas */
+  height: fit-content; /* Sidebar tidak memanjang */
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  font-size: 16px;
+  padding: 10px 0;
+  border-bottom: 1px solid #00796b;
+  cursor: pointer;
+}
+
+.sidebar li:last-child {
+  border-bottom: none;
+}
+
+.sidebar li:hover {
+  color: #b2dfdb; /* Warna teks saat hover */
+}

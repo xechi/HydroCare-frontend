@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  background-color: #e5d9d2;
+  scroll-behavior: smooth;
+}
+
+.login-container {
+  display: flex;
+  height: 100vh;
+}
